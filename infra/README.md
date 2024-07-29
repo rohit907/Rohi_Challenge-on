@@ -11,7 +11,7 @@ This project uses Terraform to provision a scalable and secure static web applic
 - **SSH Key Pair:** Ensure you have an existing SSH key pair (`id_rsa` and `id_rsa.pub`) or generate one using `ssh-keygen`.
 
 ## Project Structure
-
+```
 .
 │
 ├── main.tf
@@ -45,7 +45,7 @@ This project uses Terraform to provision a scalable and secure static web applic
 ├── test/
 │   └── main_test.go
 └── README.md
-
+ ```
 ## Setup Instructions
 
 ### 1. Initialize Terraform
