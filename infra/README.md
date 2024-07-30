@@ -92,7 +92,7 @@ terraform apply
 To skip the confirmation prompt and apply changes automatically, use:
 
 ```sh
-terraform apply 
+terraform apply -auto-approve
 ```
 
 ### 6. Obtain the EC2 Instance IP
